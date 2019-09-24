@@ -26,7 +26,8 @@ T1 ; change extruder
 ;designated start 
 G1 Z0.500 F4800 
 G1 X0.00 Y0.00 F4800
-G1 X11.016 Y0.903 ; perimeter
+G1 X10 Y0.903 ; perimeter
+G1 X11/016 Y0.903 E0.02
 
 G1 X11.094 Y-0.000 E0.02091 ; perimeter
 G1 X11.016 Y-0.903 E0.02091 ; perimeter
@@ -164,7 +165,7 @@ G1 X10.786 Y1.779 E0.02091 ; perimeter
 G1 X11.016 Y0.903 E0.02091 ; perimeter
 G1 X11.094 Y-0.000 E0.02091 ; perimeter
 G1 X11.094 Y-0.000 E0.02091 ; perimeter
-G1 X11.016 Y-0.903 E0.02091 ; perimeter
+G1 X11.016 Y-0.903 ; perimeter
 
 ; Skip to inner, travel left
 G1 X14.404 Y0.534 ; perimeter
@@ -186,17 +187,14 @@ G1 X-3.079 Y10.387 E0.34632 ; perimeter
 G1 X-4.957 Y10.804 E0.05058 ; perimeter
 G1 X-6.879 Y11.069 E0.05104 ; perimeter
 G1 X-8.806 Y11.176 E0.05074 ; perimeter
-;G1 X-9.866 Y11.176 E0.02789 ; perimeter
 G1 F1200
-
-G1 X-9.530 Y12.394 ; perimeter
+G1 X-9.530 Y12.6 ; perimeter
 G1 X-8.866 Y11.176 E0.02789 ; perimeter
-G1 X-9.488 Y10.068 E0.00190 ; perimeter
+G1 X-9.488 Y9.7 E0.00190 ; perimeter
 G1 X-8.866 Y11.176 ; perimeter
 
 G1 F1200
-G1 X-9.866 Y11.176  ; perimeter
-G1 X-8.806 Y11.176  ; perimeter
+G1 X-8.866 Y11.176  ; perimeter
 G1 X-6.879 Y11.069  ; perimeter
 G1 X-4.957 Y10.804  ; perimeter
 G1 X-3.079 Y10.387  ; perimeter
@@ -234,10 +232,10 @@ G1 X-6.879 Y-11.069 E0.04483 ; perimeter
 G1 X-8.806 Y-11.176 E0.14069 ; perimeter
 G1 F1200
 G1 X-13.862 Y-11.176 E0.00322 ; perimeter
-G1 X-14.560 Y-9.863 ; perimeter
+G1 X-14.560 Y-9.563 ; perimeter
 G1 F1200
 G1 X-13.862 Y-11.176 E0.00322 ; perimeter
-G1 X-14.481 Y-12.308 E0.00146 ; perimeter
+G1 X-14.481 Y-12.508 E0.00146 ; perimeter
 
 		;	----- END ----- 
 
