@@ -23,6 +23,11 @@ T1 ; change extruder
 
 ; Start at centre, track right
 
+;designated start 
+G1 Z0.500 F4800 
+G1 X0.00 Y0.00 F4800
+G1 X11.094 Y-0.000 ; perimeter
+
 G1 X11.094 Y-0.000 E0.02091 ; perimeter
 G1 X11.016 Y-0.903 E0.02091 ; perimeter
 G1 X10.786 Y-1.779 E0.02091 ; perimeter
@@ -233,3 +238,10 @@ G1 X-15.560 Y-9.863 ; perimeter
 G1 F1200
 G1 X-14.862 Y-11.176 E0.00322 ; perimeter
 G1 X-15.481 Y-12.308 E0.00146 ; perimeter
+
+		;	----- END ----- 
+
+M104 S0 ; turn off temperature
+G1 Y-15 Z5  ; Move away from print
+M84     ; disable motors
+
