@@ -24,7 +24,7 @@ T1 ; change extruder
 ; Start at centre, track right
 
 ;designated start 
-G1 Z0.400 F1200 
+G1 Z0.500 F1200 
 G1 X0.00 Y0.00 F1200
 G1 X10 Y0.903 ; perimeter
 G1 F300
@@ -192,7 +192,7 @@ G1 X-8.806 Y11.176 E0.05074 ; perimeter
 G1 X-9.530 Y12.6 ; perimeter
 G1 X-8.866 Y11.176 E0.02789 ; perimeter
 G1 X-9.488 Y9.5 E0.00190 ; perimeter
-G1 X-8.866 Y11.176 ; perimeter
+G1 X-8.866 Y11.176 F100 ; perimeter
 
 G1 F1200
 G1 X-8.866 Y11.176  ; perimeter
@@ -203,13 +203,13 @@ G1 X9.650 Y7.008  ; perimeter
 G1 X10.601 Y6.554  ; perimeter
 G1 X11.484 Y5.969  ; perimeter
 G1 X12.276 Y5.266  ; perimeter
-G1 F1200
+;G1 F1200
 G1 X12.415 Y5.121  ; perimeter
 G1 X12.961 Y4.459  ; perimeter
 G1 X13.134 Y4.213  ; perimeter
 G1 X13.526 Y3.564  ; perimeter
-G1 X13.691 Y3.239  ; perimeter
-G1 X13.960 Y2.598  ; perimeter
+;G1 X13.691 Y3.239  ; perimeter
+;G1 X13.960 Y2.598  ; perimeter
 
 G1 X14.404 Y0.534 E0.01320; perimeter
 G1 X14.404 Y0.534 E0.01205 ; perimeter

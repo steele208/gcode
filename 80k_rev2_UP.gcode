@@ -24,7 +24,9 @@ T1 ; change extruder
 ; Start at centre, track right
 
  ; Begin inner 
-G1 X10 Y2.852 F1400
+G1 Z0.500 F1200
+G1 X10 Y2.852 F1200
+G1 F300
 G1 X10.396 Y2.852 E0.01764
 G1 X10.810 Y1.950 E0.01764
 G1 X11.064 Y0.989 E0.01764
